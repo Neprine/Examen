@@ -1,8 +1,6 @@
 import java.util.ArrayList;
 
 public class Assignatura {
-    public long id = 0;
-
     public long getId() {
         return id;
     }
@@ -23,6 +21,7 @@ public class Assignatura {
         return disponible;
     }
 
+    public long id = 0;
     private String nom = "";
     private int hores = 0;
     public int credits = 0;
